@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #2c2c2c;
+    background: #181818;
     text-align: center;
 }
 
@@ -27,6 +27,7 @@ body{
 }
 
 .btn:hover{
+    text-shadow: 0 0 3px white;
     color: white;
     background-color: #427ac2;
     box-shadow: 0 5;
@@ -36,6 +37,6 @@ body{
 }
 
 .btn:active{
-    transform: translateY(5px);
+    transform: translateY(3px);
 }
 
